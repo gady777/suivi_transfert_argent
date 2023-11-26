@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #6c6c6f;
+	background-color: #fff;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+}
+a {
+	transition: all 300ms ease-in-out;
+	&:hover, &:focus {
+		text-decoration: none;
+		outline: 0px;
+	}
+	
+}
+a, button, input, select {
+	&:focus {
+		outline: 0 !important;
+	}
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+}
+h2 {
+	color: #262934;
+	font-size: 36px;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;	
+	position: relative;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+figure {
+	margin: 0;
+}
+section {
+	display: block;
+	position: relative;
+	padding: 100px 0;
+	width: 100%;
+	// overflow: hidden;
+}
+
+
+.bg-gradient {
+	background: linear-gradient(to right, #ff6a00, #ee0979);
+}
+
+.bg-light-grey {
+	background-color: #fef9f263;
+}

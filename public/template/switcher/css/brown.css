@@ -1,0 +1,47 @@
+/*
+Theme Name: B&D
+Sty;esheet name: blue.css
+Theme URI: https://themengraph.com
+Author URI: https://themengraph.com/
+ */
+/* ALL SELECTOR BACKGROUND */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .carousel-indicators > li.active, .carousel-control:hover,
+.profile:before, .title-section > h2:after, .life-items:hover .fa:after, .filter-nav > li.active, .filter-nav > li.active:before, .gallery-item > a, .people-item:hover:before, .owl-controls .owl-page.active,
+.couner-box:hover:before, .bnd-btn:hover:before, .bnd-btn:before, input.submit-btn, .social-media > ul > li > a:hover, a.top-btn:hover
+
+{
+    background: #a57b4a !important
+}
+
+
+/* ALL SELECTOR COLOR */
+.navbar-brand > span, .carousel-control, .life-items .fa, .life-items .fa, .bnd-btn, a.top-btn, .social-media > ul > li > a, p.copyright a, .life-items:hover h3
+{
+    color:#a57b4a ;
+}
+
+/* BORDER COLOR */
+.carousel-indicators > li,.profile,.title-section > h2:before, .life-items .fa:after, .filter-nav > li, .people-item > img,
+.owl-controls .owl-page.active, .owl-controls .owl-page, .widd-item, .bnd-btn, a.top-btn, .social-media > ul > li > a, input.form-control:focus, textarea.form-control:focus
+{
+    border-color:#a57b4a
+}
+.navbar-right > li.active > a:before {
+    border-color: #a57b4a transparent transparent transparent;
+}
+.navbar-right > li.active > a:after {
+    border-color: transparent #a57b4a transparent transparent;
+}
+
+/******************
+ * SWITCHER STYLE *
+ ******************/
+.switcherContent{
+    border-bottom: 1px solid #a57b4a
+}
+.switcher .switcherContents header,.switcher .switcherShowHide,.tempLayout ul .active-layout,.tempLayout ul li:hover{
+    background: #a57b4a;
+}
+.tempLayout ul li{
+    border: 1px solid  #a57b4a
+}

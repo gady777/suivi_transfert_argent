@@ -1,0 +1,64 @@
+$roboto: 'Roboto', sans-serif;
+$popins: 'Poppins', sans-serif;
+$bold: 700;
+$semi: 600;
+$mid: 500;
+$normal: 400;
+$light: 300;
+$transition: all 300ms ease-in-out;
+
+// colors
+$primary:  #154abd;
+$secondary: #48b1ea;
+$lightGray: #83868c;
+$black: #000;
+$lightblack: #0c2e60;
+$white: #fff;
+$offwhite: #f6f7f8;
+$maing: linear-gradient(89deg, #154abd 0.1%, #1a8ad3 51.5%, #48b1ea 100.2%);
+$mainghover: linear-gradient(89deg, #154abd 0.1%, #154abd 51.5%, #154abd 100.2%);
+
+
+@mixin pseudo($t:0, $l:0, $r:0, $b:0) {
+    content: '';
+    position: absolute;
+    top: $t;
+    left: $l;
+    right: $r; 
+    bottom: $b;
+}
+
+@mixin max-mq($w) {
+    @media screen and (max-width: $w+px) {
+        @content;
+    }
+}
+
+@mixin min-mq($w:992) {
+    @media screen and (min-width: $w+px) {
+        @content;
+    }
+}
+
+@mixin mq-between($mw, $mxw) {
+    @media (min-width: $mw+px) and (max-width: $mxw+px) {
+        @content;
+    }
+}
+
+@mixin bg-props($s:cover, $p:center top, $r:no-repeat) {
+    background-size: $s;
+    background-position: $p;
+    background-repeat: $r;
+}
+
+@mixin flexbox($a: inherit, $jc:space-between) {
+    align-items: $a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $jc;
+}
+
+@mixin overlay($i) {
+    background-image: url($i);
+}

@@ -1,0 +1,32 @@
+.tagline, .video-btn, a:hover, .list-tab-nav li a.active, .post-item .post-meta a, .sidebar .widget_categories ul li a:hover, .sidebar .widget_recent_entries ul li a:hover,
+.pagination .prev, .pagination .next, .pagination a:not(.prev):not(.next), .pagination .current, .comments ul li a, .contact-info-wrap address i
+{
+    color:#ffae00
+}
+.header.fixed-header, .btn-default, .header .primary-menu ul li.has-menu-child ul.sub-menu a:hover, .tagline.bar:after, .footer, .testimonial .owl-dots .active span, .banner:before,
+.features:before, .banner:before, .btn-filled, .video-box:after, .video-box-round:after, .video-btn:before, .faq-tab .nav a.active, 
+.cmn-tab-nav li a.active, .our-process .btn, .accordion.has-numbering .accordion-item.active:before, .receive-works .cmn-tab-nav li a.active .nav-arrow,
+.receive-works .cmn-tab-nav li a.active .nav-arrow:after, .landing-overview .no-gutters .iconBox:hover, .package-table th,.btn-filled:hover, .error-page .header,
+.coming-sec:before, .coming-sec #clock span, .signup-login .sl-slider-caro, .signup-login .sl-slider-caro:before, .testimonial-v3 .owl-dots button.active,
+.sidebar .widget_categories ul li a:after, .sidebar .widget_recent_entries ul li a:after, .sidebar .tag-cloud a:hover, .contact-info-wrap,
+.contact-media .cm-box:hover
+{
+    background-color: #ffae00 
+}
+.btn.btn-default{
+    background-color: #ffae00 
+}
+.pagination a:hover, .pagination .current{
+    background-color: #ffae00 !important
+}
+.faq-tab .nav a.active, .our-process .btn, .list-tab-nav li a.active, .testimonial-v3 .owl-dots button.active, .sidebar .tag-cloud a:hover, 
+.pagination .prev, .pagination .next{
+    border-color: #ffae00
+}
+.signup-login .sl-slider-caro .owl-dots span{
+    background-color: #b17902
+}
+
+.banner.video::before{
+    opacity: .7;
+}
